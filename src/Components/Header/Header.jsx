@@ -2,39 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    // <div className='w-[1440px] fixed h-[100px] justify-between pt-[28pxpx] pr-[130.6px] pb-[28px] pl-[130px] bg-[#F7DBA7] flex items-center'>
-    //  {/* frame 47 */}
-    //  <div className='flex gap-[48px] w-[529px]  h-[40px]'>
-    //     <div className='w-[115px] h-[40px]'>
-    //       Monito
-    //     </div>
-    //     <div className='w-[359.35px] h-[24px] gap-[47.12px] flex list-none'>
-    //         <li>Home</li>
-    //         <li>Category</li>
-    //         <li>About</li>
-    //         <li>Contact</li>
-
-    //     </div>
-    //  </div>
-
-    //  <div className='flex gap-[11.78px]'>
-    //      <div >
-    //         {/* search */}
-    //         <input type="text" placeholder='Search'  className='rounded-[45.15px] w-[274.84px] h-[43.56px] pt-[11.78px] pr-[19.63px] pb-[11.78px] pl-[15.71px]  bg-[#FDFDFD]'
-    //        />
-    //      </div>
-    //      <div>
-    //       <button className=' w-[199.97px] h-[43.19px] rounded-[55.95px] pt-[13.74px] pr-[27.48px] pb-[9.82px] pl-[27.48px] bg-[#003459] font-custombold text-[15.71px] text-[#FDFDFD]'>Join the community</button>
-    //      </div>
-    //      <div className='w-[101.69px] h-[43.56px] pt-[9.82px] pr-[7.85px] pb-[7.85px] pl-[7.85px]'>
-    //        <div className='w-[32px] h-[23px] font-cutomfont'>
-    //         VND
-    //        </div>
-    //      </div>
-    //  </div>
-
-     
-    // </div>
+    
+    
     <div className='fixed left-[205px] w-[1440px] h-[100px] flex justify-between pt-[28px] pr-[130px] pb-[28px]pl-[130px] z-40'>
       {/* frame 47 */}
       <div className='w-[529px] h-[40px] gap-[48px] flex'>

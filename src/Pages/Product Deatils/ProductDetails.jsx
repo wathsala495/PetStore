@@ -14,8 +14,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
+
 
 const ProductDetails = () => {
   const {id}=useParams()
