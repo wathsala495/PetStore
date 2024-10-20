@@ -27,7 +27,10 @@ useEffect(()=>{
   return (
 
 
-    <div className='w-[1440px] h-[986px] absolute top-[695px] bg-white z-[40]'>
+    <div className='w-full h-[986px] absolute top-[695px] bg-white z-[40] '>
+    {/* <div className='w-[1440px] h-[986px] absolute top-[695px] bg-white z-[40]'> */}
+    <div className='flex justify-center'>
+    <div >
       <div className='w-[151px] h-[44px] absolute top-[78px] left-[1159px] rounded-[57px] border-[1.5px] py-[12px] px-[28px] gap-[8px] border-[#003459] flex'>
       <div className='w-[67px] h-[20px] '>
         <p className='font-cutomfont font-[500] text-[14px] leading-[20px] text-[#003459]'>View more </p>
@@ -49,6 +52,9 @@ useEffect(()=>{
         
          <PetCard petsData={petsData}/>
        </div>
+      </div>
+    </div>
+     
     </div>
   )
 }

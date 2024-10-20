@@ -5,7 +5,7 @@ const ProductCard = (props) => {
     
   return (
     <>
-       <div className='gap-x-[8px] gap-y-[20px] flex flex-wrap' >
+       <div className='gap-x-[8px] gap-y-[20px] flex flex-wrap z-20 bg-[white]' >
           {
                props.products?.map(({id,name,product,price,size,description,image})=>{
                     return(

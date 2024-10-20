@@ -22,7 +22,8 @@ const Products = () => {
    })
      },[])
   return (
-    // <div className='w-[1440px] h-[1122px] absolute top-[2059px]'>
+ 
+    // <div className='w-[1440px] h-[1122px] absolute top-[2059px] z-40 max-[415px]:hidden'>
     <div className='w-[1440px] h-[1122px] absolute top-[2059px] z-40 max-[415px]:hidden'>
       <div className='w-[367px] h-[62px] absolute top-[60px] left-[130px] gap-[2px] flex flex-col'>
         <div className='w-[326px] h-[24px]'><p className='font-cutomfont font-[500] text-[16px] leading-[24px] text-[#000000]'>Hard to choose right products for your pets?</p></div>

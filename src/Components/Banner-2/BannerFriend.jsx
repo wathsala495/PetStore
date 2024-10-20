@@ -4,6 +4,7 @@ const BannerFriend = () => {
   return (
     // <div className='w-[1180px] h-[378px] absolute top-[1681px] left-[130px] rounded-[20px] '>
     <div className='w-[1180px] h-[378px] absolute top-[1681px] left-[130px] rounded-[20px]  bg-[#003459] z-10'>
+    {/* <div className='w-[1180px] h-[378px] absolute top-[1681px] left-[130px] rounded-[20px]  bg-[#003459] z-10'> */}
       <div className='w-[513px] h-[342px] absolute top-[36px] left-[20px] z-40'>
          <img src={banner_img_2} alt="" />
       </div>

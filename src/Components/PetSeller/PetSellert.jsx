@@ -9,7 +9,8 @@ import pidegree from './../../assets/images/pidegree.png'
 
 const PetSellert = () => {
   return (
-    <div className='w-[1438px] h-[251px] absolute top-[3181px] pt-[40px] pr-[130px] pb-[40px] pl-[130px] gap-[15px] flex flex-col'>
+    // <div className='w-[1438px] h-[251px] absolute top-[3181px] pt-[40px] pr-[130px] pb-[40px] pl-[130px] gap-[15px] flex flex-col'>
+    <div className='w-[1438px] h-[251px] absolute top-[2700px] pt-[40px] pr-[130px] pb-[40px] pl-[130px] gap-[15px] flex flex-col'>
         <div className='w-[1178] h-[44px] flex justify-between'>
             <div className='w-[226px] h-[36px] gap-[8px] flex'>
                  <div className='w-[141px] h-[31px]'><p className='font-cutomfont font-[500] text-[16px] leading-[31px] text-[#000000]'>Proud to be part of</p></div>

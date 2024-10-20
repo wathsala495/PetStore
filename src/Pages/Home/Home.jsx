@@ -11,7 +11,8 @@ import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
   return (
-    <div className='w-[1440px] h-[4884px] absolute  left-[205px] bg-[#FDFDFD] z-0 '>
+    // <div className='w-[1440px] h-[4884px] absolute  left-[205px] bg-[#FDFDFD] z-0 '>
+    <div className='w-full h-[3500px] absolute  bg-[#FDFDFD] z-0 '>
    
        <Banner/>
     <Pets/>

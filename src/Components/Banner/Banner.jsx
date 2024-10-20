@@ -6,7 +6,9 @@ const Banner = () => {
   return (
     
 
-     <div className='w-[1440px] h-[695px] rounded-br-[40px] rounded-bl-[40px] bg-[#FCEED5] flex max-sm:flex-row' >
+    //  <div className='w-[1440px] h-[695px] rounded-br-[40px] rounded-bl-[40px] bg-[#FCEED5] flex max-sm:flex-row' >
+     <div className='w-full h-[695px] rounded-br-[40px] rounded-bl-[40px] bg-[#FCEED5] flex max-sm:flex-row' >
+      
             <div>
             <div className='w-[161px] h-[48px] absolute top-[442px] left-[130px] rounded-[57px] border-[1.5px] pt-[14px] pr-[28px] pb-[10px] pl-[28px] gap-[8px]flex border-[#003459]'>
                <div className='w-[73px] h-[24px]'> <p className='font-cutomfont font-[500] text-[16px] leading-[24px] text-[#003459]'>View Intro</p></div>

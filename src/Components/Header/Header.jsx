@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     
     
-    <div className='fixed left-[205px] w-[1440px] h-[100px] flex justify-between pt-[28px] pr-[130px] pb-[28px]pl-[130px] z-40'>
+    // <div className='fixed left-[205px] w-[1440px] h-[100px] flex justify-between pt-[28px] pr-[130px] pb-[28px]pl-[130px] z-40'>
+    <div className='fixed left-[205px] w-full h-[100px] flex justify-between pt-[28px] pr-[130px] pb-[28px]pl-[130px] z-40'>
       {/* frame 47 */}
       <div className='w-[529px] h-[40px] gap-[48px] flex'>
         {/* frame */}
@@ -16,7 +18,7 @@ const Header = () => {
         {/* frame 2 */}
         <div className='w-[366px] h-[24px] flex gap-[10px]'>
           <div className='w-[44px] h-[24px]'><p className='font-customfont font-[700] text-[16px] leading-[24px] text-[#003459]'>Home</p></div>
-          <div className='w-[71px] h-[24px]'><p className='font-customfont font-[700] text-[16px] leading-[24px] text-[#003459]'>Category</p></div>
+          <div className='w-[71px] h-[24px]'><p className='font-customfont font-[700] text-[16px] leading-[24px] text-[#003459]'><Link to="petlist">Category</Link></p></div>
           <div className='w-[46px] h-[24px]'><p className='font-customfont font-[700] text-[16px] leading-[24px] text-[#003459]'>About</p></div>
           <div className='w-[61px] h-[24px]'><p className='font-customfont font-[700] text-[16px] leading-[24px] text-[#003459]'>Contact</p></div>
           

@@ -30,8 +30,9 @@ const PetKnowledge = () => {
    ]
 
   return (
-    // <div className='w-[1440px] h-[634px] absolute top-[3810px] bg-[white]'>
-    <div className='w-full h-[634px] absolute top-[3810px] bg-[white]'>
+   
+    // <div className='w-full h-[634px] absolute top-[3810px] bg-[white]'>
+    <div className='w-full h-[634px] absolute top-[3350px] bg-[white]'>
         <div className='absolute w-[242px] h-[62px] top-[60px] left-[130px] gap-[2px] flex flex-col'>
             <div className='w-[145px] h-[24px]'><p className='font-cutomfont font-[500] text-[16px] leading-[24px] text-[#000000]'>You already know ?</p></div>
             <div className='w-[242px] h-[36px]'>
