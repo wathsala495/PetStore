@@ -27,20 +27,13 @@ const router=createBrowserRouter([
       }
 
     ]
-    // path:'/' ,element:<Home/>
+   
   },
-  // {
-  //    path:'petlist',element:<PetList/>
-  // },
-  // {
-  //   path:"productdetails/:id" ,element:<ProductDetails/>
-  // }
+  
 ])
 const AppRouter = () => {
   return (
-    // <div>
-    //   <Header/>
-    // </div>
+ 
     <>
     <RouterProvider router={router}/>
     </>
