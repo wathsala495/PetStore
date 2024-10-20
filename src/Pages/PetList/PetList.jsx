@@ -30,7 +30,7 @@ useEffect(()=>{
       
         {/* header start */}
 
-        <Header/>
+        {/* <Header/> */}
     {/* header end */}
 
        {/* home dog start */}
@@ -200,7 +200,7 @@ useEffect(()=>{
         
           
        </div>
-       <Footer/>
+       {/* <Footer/> */}
     </div>
   )
 }

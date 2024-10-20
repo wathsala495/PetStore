@@ -45,7 +45,7 @@ useEffect(()=>{
 
 
 
-       <div className='grid grid-cols-3 gap-x-[20px]  gap-y-[20px] absolute left-[130px] top-[150px] max-[415px]:grid-cols-2'>
+       <div className='grid grid-cols-4 gap-x-[20px]  gap-y-[20px] absolute left-[130px] top-[150px] max-[415px]:grid-cols-2'>
         
          <PetCard petsData={petsData}/>
        </div>

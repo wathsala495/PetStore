@@ -3,7 +3,7 @@ import facebook from './../../assets/icons/facebook.svg'
 
 const Footer = () => {
   return (
-  <div className='w-[1440px] h-[440px] absolute top-[4440px] left-[-1] rounded-tl-[40px] rounded-tr-[40px] bg-[#FCEED5]'>
+  <div className='w-[1440px] h-[440px] absolute top-[4440px] left-[205px] bottom-0 rounded-tl-[40px] rounded-tr-[40px] bg-[#FCEED5]'>
      <div className='w-[1180px] h-[240px] absolute top-[80px] left-[130px] border-[1px] pb-[40px] gap-[40px] border-[#CCD1D2] flex flex-col'>
         <div className='w-[1180px] h-[136px] rounded-[16px] p-[32px] gap-[20px] flex bg-[#003459]'>
               <div className='w-[398px] h-[72px]'><p className='font-cutomfont font-[700] text-[24px] leading-[36px] text-[#FDFDFD]'>Register now so you don't miss our programs</p></div>

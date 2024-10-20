@@ -35,7 +35,7 @@ const Header = () => {
 
      
     // </div>
-    <div className='fixed w-[1440px] h-[100px] flex justify-between pt-[28px] pr-[130px] pb-[28px]pl-[130px] '>
+    <div className='fixed left-[205px] w-[1440px] h-[100px] flex justify-between pt-[28px] pr-[130px] pb-[28px]pl-[130px] z-40'>
       {/* frame 47 */}
       <div className='w-[529px] h-[40px] gap-[48px] flex'>
         {/* frame */}

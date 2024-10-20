@@ -44,7 +44,7 @@ let selectedPet = petsData.find(item => item.id ===id );
 
   return (
     <>
-      <Header/>
+      {/* <Header/> */}
     <div className='w-[1440px] h-[2401] absolute   bg-[#FDFDFD]'>
         {/* header */}
      
@@ -317,7 +317,7 @@ let selectedPet = petsData.find(item => item.id ===id );
            </div>
 
        </div>
-       <Footer/>
+       {/* <Footer/> */}
 
     </div>
     </>

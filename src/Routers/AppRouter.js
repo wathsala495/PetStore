@@ -8,26 +8,33 @@ import ProductDetails from '../Pages/Product Deatils/ProductDetails'
 
 const router=createBrowserRouter([
   {
-    // path:'/',
-    // element:<MainLayout/>,
-    // children:[
-    //   {
-    //     index:true,
-    //   element:<Home/>
-    //   },
-    //   {
-    //     path:'petlist',
-    //     element:<PetList/>
-    //   }
-    // ]
-    path:'/' ,element:<Home/>
+    path:'/',
+    element:<MainLayout/>,
+    children:[
+      {
+        index:true,
+      element:<Home/>
+      },
+      {
+        path:'petlist',
+        element:<PetList/>
+      },
+      {
+        
+        path:"productdetails/:id" ,
+        element:<ProductDetails/>
+          
+      }
+
+    ]
+    // path:'/' ,element:<Home/>
   },
-  {
-     path:'petlist',element:<PetList/>
-  },
-  {
-    path:"productdetails/:id" ,element:<ProductDetails/>
-  }
+  // {
+  //    path:'petlist',element:<PetList/>
+  // },
+  // {
+  //   path:"productdetails/:id" ,element:<ProductDetails/>
+  // }
 ])
 const AppRouter = () => {
   return (
